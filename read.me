@@ -4,5 +4,16 @@
 This project predicts the survival of Titanic passengers.
 
 ## Dataset
-- **Description:** The dataset contains information about passengers, such as age, gender, ticket class, fare, and survival status.
+ The dataset contains information about passengers, such as age, gender, ticket class, fare, and survival status.
 
+##Data Cleaning and Data Preprocessing
+**Removed column cabin as it has most missing values.
+**Replaced missing values with medium in Age and Fare columns.
+**Found the number of outliers and handled them using Capping and Flooring.
+**Converted Categorical values to numerical values usaing encoding.
+**Splitted the data into training dataset and testing datset and then done normalization.
+
+##Model Building
+**Trained the model on training data using ML models like Logistic Regression, Random Forest, and XGBoost. 
+**Tested the performance on test data using Accuracy and Precision.
+**Based on these factors Random Forest performed best
